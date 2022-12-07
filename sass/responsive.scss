@@ -344,7 +344,7 @@
         }
     }
 }
-@media (orientation: landscape){
+@media (min-width: 1024px) and (orientation: landscape){
     .first-header{
         .name{
             margin-bottom: 1rem;
@@ -352,174 +352,12 @@
                 font-size: 2rem;
             }
             .name-sec-header{
-                font-size: .7rem;
+            font-size: .7rem;
             }
             .icon{
-                display: block;
-            }
-        }
-        .navbar{
             display: none;
-        }
-    }
-    .home{
-        padding: 0;
-        .image{
-            animation: none;
-        }
-        .home-info{
-            .paragraph1{
-                display: none;
-            }
-            .description1{
-                font-size: 2rem;
-                text-align: center;
-            }
-            .description2{
-                font-size: 1.5rem;
-            }
-            .paragraph2{
-                font-size: 1.3rem;
-                background-color: white;
-            }
-            .paragraph3{
-                font-size: 1.3rem;
-                background-color: white;
             }
         }
-        .btn-home{
-            display: none;
-        }
-    }
-    .wrapper{
-        overflow: hidden;
-        padding: 2rem .5rem;
-        .about{
-            .description-about-one{
-                font-size: 1.5rem;
-            }
-            .description-about-two{
-                font-size: 1.5rem;
-            }
-            h1:nth-of-type(2){
-                display: none;
-            }
-            .line{
-                width: 0.1rem;
-                height: 3rem;
-            }
-            .article{
-                flex-direction: column;
-                align-items: center;
-                flex-wrap: nowrap;
-                .image-article{
-                    display: none;
-                }
-                .info-article{
-                    .paragraph-article{
-                        padding: 1rem;
-                        font-size: 1rem;
-                        letter-spacing: 0.1rem;
-                    }
-                    .description-article{
-                        font-size: 1.2rem;
-                        padding: 1rem;
-                        text-align: center;
-                    }
-                }
-                .resp{
-                    display: block;
-                }
-            }
-        }
-        .gallery{
-            margin: 2rem auto;
-            .line{
-                width: 0.1rem;
-                height: 3rem;
-            }
-            .description-gallery{
-                font-size: 1.5rem;
-            }
-            .image-gallery-two{
-                flex-direction: column;
-                .box{
-                    padding-top: 0.5rem;
-                    img{
-                        height: 70vh;
-                    }
-                }
-                .box:first-child{
-                    padding-right: 0rem;
-                }
-                .box:nth-of-type(3){
-                    padding-right: 0rem;
-                }
-                .box:nth-of-type(5){
-                    padding-right: 0rem;
-                }
-            }
-        }
-        .reviews{
-            padding-bottom: 2rem;
-            position: relative;
-            .description-reviews{
-                font-size: 1.5rem;
-                margin: 1rem auto;
-                padding: 2rem 2rem 0 2rem;
-            }
-            .swiper-wrapper{
-                .slide{
-                    padding: 2rem 1rem;
-                    .review{
-                        font-size: .8rem;
-                        font-weight: 300;
-                    }
-                    .person{
-                        font-weight: 600;
-                    }
-                }
-            }
-            .sec1, .sec2{
-                position: absolute;
-                top: 90%;
-            }
-
-        }
-        .contact{
-            margin: 2rem auto 1rem auto;
-            .description-contact{
-                font-size: 1.5rem;
-            }
-            .line{
-                width: 0.1rem;
-                height: 3rem;
-            }
-            .contacts{
-                .con{
-                    text-align: center;
-                }
-            }
-            .info{
-                p{
-                    font-size: .8rem;
-                }
-            }
-            .google{
-                margin: 2rem auto;
-                h1{
-                    font-size: 1.5rem;
-                }
-            }
-        }
-    }
-    .footer{
-        font-size: .7rem;
-        padding: 0.7rem;
-    }
-}
-@media (min-width: 1024px) and (orientation: landscape){
-    .first-header{
         .navbar{
             display: flex;
             justify-content: center;
